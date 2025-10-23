@@ -142,6 +142,116 @@ It focuses on verification, approval, and traceability. Key activities include:
 
 ---
 
+## 🧩 Types of Requirements
+
+In the development of the **Airbnb Clone Application**, understanding and defining the **types of requirements** is crucial for delivering a product that functions seamlessly and provides an exceptional user experience.  
+
+Requirements are generally categorized into two main types: **Functional Requirements** and **Non-functional Requirements**.  
+Both are essential in ensuring that the system not only performs the required operations but also does so efficiently, securely, and reliably just like the real **Airbnb** platform.
+
+---
+
+### ⚙️ Functional Requirements
+
+**Definition:**  
+Functional requirements describe the **specific features and operations** the system must perform.  
+They define how users interact with the application, the data it processes, and how the system responds to various actions.
+
+**Detailed Examples for the Airbnb Clone:**
+
+#### 🏠 1. Property Listing Management  
+- Hosts should be able to **create, edit, and delete** property listings with details such as title, description, location, amenities, price, and images.  
+- The system should validate mandatory fields before allowing the listing to go live.  
+- Listings should be visible to users only after admin or automated verification.
+
+#### 🔍 2. Property Search and Filtering  
+- Guests should be able to **search for listings** based on parameters like location, check-in/check-out dates, number of guests, and property type.  
+- The system should support **advanced filters** (e.g., price range, room type, amenities, ratings).  
+- Search results should be retrieved from an **Elasticsearch index** for fast and relevant responses.
+
+#### 📅 3. Booking and Reservation System  
+- Guests should be able to **book properties** by selecting available dates.  
+- The system should prevent double bookings through real-time availability checks.  
+- Upon confirmation, booking details should be stored in a **booking database**, and both host and guest should receive notifications.  
+
+#### 💳 4. Payment Processing  
+- The system should integrate with **third-party payment gateways** (e.g., Stripe, PayPal) for secure transactions.  
+- Payments should support multiple currencies and handle cancellations or refunds automatically.  
+- All payment activities should be logged for audit and compliance purposes.
+
+#### 👥 5. User Account Management  
+- Users should be able to **register, log in, and manage their profiles**.  
+- The system should support **two user roles** *Host* and *Guest* each with different permissions and dashboards.  
+- Users should be able to upload a profile picture, verify their identity, and view booking history.
+
+#### 💬 6. Messaging and Notifications  
+- Hosts and guests should be able to **communicate through an in-app messaging system**.  
+- The system should send **real-time notifications** (via email, SMS, or push notifications) for booking confirmations, payment receipts, and updates.  
+- Notification services should be managed asynchronously using a **message queue system** like Kafka or RabbitMQ.
+
+#### ⭐ 7. Reviews and Ratings  
+- Guests should be able to **leave reviews and star ratings** for their stays.  
+- Hosts can respond to reviews to maintain transparency.  
+- The system should display average ratings and recent reviews on property pages.
+
+#### 🧭 8. Admin Management Dashboard  
+- Admins should be able to **manage users, listings, and transactions** through a secure admin panel.  
+- The system should include **analytics and reporting tools** to monitor platform activity and performance.
+
+---
+
+### 🧠 Non-functional Requirements
+
+**Definition:**  
+Non-functional requirements describe **how the system performs its functions**.  
+They define quality standards, operational constraints, and performance goals that ensure the system runs efficiently and scales effectively.
+
+**Detailed Examples for the Airbnb Clone:**
+
+#### ⚡ 1. Performance and Speed  
+- The system should handle **up to 50,000 concurrent users** without performance degradation.  
+- Page load time should not exceed **2 seconds**, even under high traffic.  
+- **Redis caching** should be implemented to reduce database load and improve response time for frequently accessed data.
+
+#### 🌍 2. Scalability  
+- The application should follow a **microservices architecture**, allowing independent scaling of services like booking, payments, and messaging.  
+- Use of **load balancers** (e.g., NGINX or AWS ELB) to distribute user requests evenly across multiple servers.  
+- Databases (e.g., PostgreSQL for transactions, Elasticsearch for search, Cassandra for archival) should support horizontal scaling.
+
+#### 🔒 3. Security and Privacy  
+- All communications must use **HTTPS (SSL/TLS encryption)** to protect data in transit.  
+- Passwords should be stored using **bcrypt or Argon2 hashing** algorithms.  
+- Implement **OAuth 2.0 or JWT authentication** for secure access control.  
+- Sensitive data (like payment details) must comply with **PCI-DSS** standards.  
+- Regular security audits and vulnerability scans should be performed.
+
+#### ☁️ 4. Availability and Reliability  
+- The system should maintain **99.9% uptime** through redundant servers and database replication (master-slave or cluster-based).  
+- Implement **auto-recovery** mechanisms for failed services and data synchronization through **Kafka streams**.  
+- Use **CDNs (Content Delivery Networks)** to ensure fast global content delivery.
+
+#### 🧾 5. Data Consistency and Integrity  
+- All booking and payment transactions must maintain **ACID compliance**.  
+- Synchronize data between caching systems, message queues, and databases to prevent inconsistencies.  
+- Implement **event-driven updates** to ensure real-time synchronization between services.
+
+#### 💬 6. Usability and Accessibility  
+- The UI should be **intuitive, responsive, and mobile-friendly**, ensuring users can book properties effortlessly.  
+- Follow **WCAG accessibility guidelines** to accommodate users with disabilities.  
+- Provide consistent navigation, typography, and branding throughout the interface.
+
+#### 🧠 7. Maintainability and Extensibility  
+- Codebase should follow **modular and component-based architecture** (e.g., React, Next.js for frontend).  
+- Proper **API documentation** should be maintained using tools like Swagger or Postman.  
+- Future features (e.g., loyalty programs, gift cards) should be easy to integrate without major redesign.
+
+#### 📈 8. Monitoring and Analytics  
+- Implement **real-time monitoring tools** (e.g., Prometheus, Grafana) to track system performance and user activity.  
+- Store event logs in **Elasticsearch** for analysis and debugging.  
+- Generate periodic reports for business insights, such as most booked locations, user engagement, and revenue growth.
+
+
+
 
 
 
