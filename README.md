@@ -250,7 +250,81 @@ They define quality standards, operational constraints, and performance goals th
 - Store event logs in **Elasticsearch** for analysis and debugging.  
 - Generate periodic reports for business insights, such as most booked locations, user engagement, and revenue growth.
 
+## 📊 Use Case Diagrams
 
+### 🎯 Objective  
+Provide a **visual representation** of the interactions between different users (actors) and the system, helping to clarify the functionalities and user roles within the **Airbnb Clone Booking System**.
+
+---
+
+### 🧠 What are Use Case Diagrams?
+
+**Use Case Diagrams** are part of the **Unified Modeling Language (UML)** and are widely used in **Requirement Analysis** to illustrate how users interact with a system to accomplish specific goals.  
+They provide a **high-level overview** of the system’s functionality and the relationships between users (actors) and system processes (use cases).
+
+In simpler terms, a Use Case Diagram answers the question:  
+> “Who does what in the system?”
+
+---
+
+### 🧩 Creating Use Case Diagrams
+
+When designing a **Use Case Diagram** for the Airbnb Clone Booking System, the following key elements are identified:
+
+#### 👥 Actors
+Actors represent the different types of users or external systems that interact with the application:
+- **Guest (Visitor)** – Can search and view property listings but cannot book until registered.  
+- **Registered User (Customer)** – Can search, book, pay, and review properties.  
+- **Host (Property Owner)** – Can add, manage, and update property listings.  
+- **Admin** – Oversees system operations, user management, and overall platform maintenance.  
+- **Payment Gateway** – An external system that handles secure financial transactions.  
+
+#### ⚙️ Use Cases
+Use cases describe the key functionalities or actions that users can perform:
+- **Register / Log In**
+- **Search for Properties**
+- **View Property Details**
+- **Book Property**
+- **Make Payment**
+- **Cancel Booking**
+- **Write Review / Rating**
+- **Manage Property Listings**
+- **View Bookings**
+- **Receive Notifications**
+- **Manage Users (Admin)**
+- **Generate Reports (Admin)**
+
+---
+
+### 🧮 Use Case Diagram — Airbnb Clone Booking System
+
+Below is the Use Case Diagram that visually represents the interactions between the **actors** and **use cases** of the system.
+
+![ALX Airbnb Booking Use Case Diagram](./assets/alx-booking-uc.png)
+
+
+---
+
+### 💡 Benefits of Use Case Diagrams
+
+- **🗺️ Visual Clarity:**  
+  Offers a clear overview of how users interact with the system, making it easier to understand the system’s scope and functionality.
+
+- **🤝 Improved Communication:**  
+  Bridges the gap between technical and non-technical stakeholders, ensuring everyone shares a consistent understanding of system requirements.
+
+- **📋 Requirement Organization:**  
+  Helps analysts and developers organize and prioritize features based on user interactions.
+
+- **🧭 Development Guidance:**  
+  Serves as a foundational reference during design, development, and testing to ensure that all user goals are met.
+
+---
+
+### 🧩 Summary
+Use Case Diagrams are a **powerful visual tool** in Requirement Analysis, providing an intuitive understanding of the **Airbnb Clone Booking System’s** core interactions.  
+By mapping out how users engage with different functionalities, the team can ensure that every user goal is supported — resulting in a user-centric and efficient booking platform.
+```
 
 
 
