@@ -321,6 +321,53 @@ Below is the Use Case Diagram that visually represents the interactions between 
 
 ---
 
+## 🧾 Acceptance Criteria ✅  
+
+### 🎯 Objective  
+Establishing clear criteria for feature completion to ensure that all developed functionalities meet stakeholder expectations before acceptance.  
+
+---
+
+### 🔍 What is Acceptance Criteria?  
+**Acceptance Criteria** are specific, predefined conditions that a software feature must satisfy to be accepted by stakeholders such as clients, users, or product owners.  
+
+They serve as a mutual agreement between the development team and stakeholders on what needs to be delivered for a feature to be considered **“done.”**
+
+---
+
+### ⚙️ How to Define Acceptance Criteria  
+When defining acceptance criteria, ensure they are:  
+
+- **Specific and Measurable:** Clearly state what the feature must achieve.  
+- **Testable:** Each criterion should be verifiable through testing or demonstration.  
+- **Unambiguous:** Avoid vague terms; use clear, concrete language.  
+- **Comprehensive:** Include both **functional** and **non-functional** aspects.  
+- **Realistic:** Ensure they can be met within the project’s scope, time, and resources.  
+
+---
+
+### 💡 Example: Checkout Feature in a Booking Management System  
+
+#### 🧾 User Story  
+> *As a registered user, I want to complete my hotel booking through a secure checkout process so that I can confirm my stay and receive a booking confirmation.*
+
+#### ✅ Acceptance Criteria  
+- Users should be able to review their selected property details (price, dates, and room type) before making a payment.  
+- The system must securely validate and process payment details through a third-party payment gateway (e.g., Stripe, PayPal).  
+- Upon successful payment, the booking must be saved in the database and assigned a **unique booking ID**.  
+- A **confirmation email and SMS notification** should be sent to the user within **2 minutes** of successful checkout.  
+- If the payment fails, the system should display a clear error message and prompt the user to retry or select a different payment method.  
+- The checkout process must complete within **5 seconds** under normal system load conditions.  
+
+---
+
+### 🌟 Benefits of Acceptance Criteria  
+- 🧭 **Ensures Clarity and Understanding:** All stakeholders share a unified understanding of what “done” means.  
+- 🧪 **Improves Testing and Validation:** QA teams can use criteria to design accurate test cases.  
+- 💬 **Enhances Communication:** Promotes better collaboration between developers, testers, and clients.  
+- 💯 **Maintains Quality Standards:** Guarantees that each feature aligns with user expectations and project goals.  
+
+
 
 
 
