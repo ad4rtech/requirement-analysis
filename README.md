@@ -82,6 +82,67 @@ It also enables early identification of potential risks and dependencies, which 
 Ultimately, this phase contributes to **higher quality assurance**, ensuring that the final product aligns with both business objectives and user expectations.
 
 ---
+## 🔧 Key Activities in Requirement Analysis
+
+The **Requirement Analysis** phase involves a series of structured activities that ensure a comprehensive understanding of what the software system must deliver. Each activity contributes to the creation of precise, validated, and actionable requirements that guide the rest of the Software Development Lifecycle (SDLC).
+
+Below are the five key activities involved in Requirement Analysis:
+
+---
+
+### 1. 🗂️ Requirement Gathering  
+This is the initial step where information is collected from stakeholders to understand their needs, goals, and expectations.  
+Key methods used in this process include:
+
+- **Interviews:** Conducting one-on-one or group interviews with stakeholders to capture detailed insights about system needs.  
+- **Surveys/Questionnaires:** Distributing structured surveys to gather input from a larger audience.  
+- **Workshops:** Organizing collaborative sessions with stakeholders to discuss, clarify, and refine requirements.  
+- **Observation:** Watching end-users in their real work environment to understand workflows, challenges, and pain points.  
+- **Document Analysis:** Reviewing existing systems, reports, and documentation to identify current functionalities and areas for improvement.
+
+---
+
+### 2. ✍️ Requirement Elicitation  
+This step focuses on **extracting** meaningful requirements through interactive and creative engagement with stakeholders.  
+It aims to uncover both stated and unstated needs. Common techniques include:
+
+- **Brainstorming:** Facilitating group discussions to generate diverse ideas and possible system requirements.  
+- **Focus Groups:** Conducting discussions with selected stakeholder groups to gain deeper insights into specific requirements.  
+- **Prototyping:** Developing early models or mockups to help stakeholders visualize proposed features and refine their feedback.
+
+---
+
+### 3. 📚 Requirement Documentation  
+Once requirements are gathered and elicited, they are formally documented to ensure clarity, traceability, and shared understanding across the team.  
+Common documentation artifacts include:
+
+- **Requirement Specification Document (SRS):** A comprehensive document detailing all functional and non-functional requirements.  
+- **User Stories:** Descriptions of system functionalities from the user’s perspective, often used in Agile environments.  
+- **Use Cases:** Diagrams or narratives that illustrate interactions between users (actors) and the system to achieve specific goals.
+
+---
+
+### 4. 📊 Requirement Analysis and Modeling  
+This activity involves evaluating and structuring the gathered requirements to ensure they are feasible, consistent, and aligned with project objectives.  
+Typical tasks include:
+
+- **Requirement Prioritization:** Ranking requirements based on business value, urgency, and impact.  
+- **Feasibility Analysis:** Assessing each requirement’s practicality in terms of technical, financial, and time constraints.  
+- **Modeling:** Creating visual representations such as **data flow diagrams (DFDs)**, **entity-relationship diagrams (ERDs)**, and **system models** to clarify complex requirements.
+
+---
+
+### 5. ✅ Requirement Validation  
+The final step ensures that all documented requirements accurately reflect stakeholder needs and are ready for implementation.  
+It focuses on verification, approval, and traceability. Key activities include:
+
+- **Review and Approval:** Presenting documented requirements to stakeholders for confirmation of accuracy and completeness.  
+- **Acceptance Criteria:** Defining measurable conditions that each requirement must meet to be considered successfully implemented.  
+- **Traceability:** Creating a **traceability matrix** to map each requirement to corresponding design, development, and testing elements, ensuring full coverage throughout the SDLC.
+
+---
+
+
 
 
 
