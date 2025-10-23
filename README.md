@@ -300,7 +300,7 @@ Use cases describe the key functionalities or actions that users can perform:
 
 Below is the Use Case Diagram that visually represents the interactions between the **actors** and **use cases** of the system.
 
-![ALX Airbnb Booking Use Case Diagram](./assets/alx-booking-uc.png)
+![ALX Airbnb Booking Use Case Diagram](./alx-booking-uc.png)
 
 
 ---
@@ -320,11 +320,6 @@ Below is the Use Case Diagram that visually represents the interactions between 
   Serves as a foundational reference during design, development, and testing to ensure that all user goals are met.
 
 ---
-
-### 🧩 Summary
-Use Case Diagrams are a **powerful visual tool** in Requirement Analysis, providing an intuitive understanding of the **Airbnb Clone Booking System’s** core interactions.  
-By mapping out how users engage with different functionalities, the team can ensure that every user goal is supported — resulting in a user-centric and efficient booking platform.
-```
 
 
 
